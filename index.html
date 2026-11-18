@@ -3,19 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio - Fuentes de Datos</title>
+    <title>Nat | Devil Hunter - Data Science</title>
+    <meta name="description" content="Portafolio de Nat - Estudiante de Ciencia de Datos en ITAM. Experiencia en bases de datos, CRM y análisis.">
+
+    <!-- Google Fonts con estilo Manga / Chainsaw Man -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;600;700&family=Space+Grotesk:wght@400;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS del tema -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hola, soy Nat</h1>
-    <p>Estudiante de licenciatura en ciencia de datos</p>
-    
-    <h2>Enlaces</h2>
-    <ul>
-        <li><a href="https://github.com/nat-aglo" target="_blank">Mi GitHub</a></li>
-        <li><a href="https://linkedin.com/in/natalia-a-06171441a" target="_blank">Mi LinkedIn</a></li>
-    </ul>
 
-    <h2>Currículum</h2>
-    <p><a href="cv.pdf" target="_blank">Descargar mi CV en PDF</a></p>
+    <!-- Capa de semitono estilo manga (screentone) -->
+    <div class="screentone"></div>
+
+    <!-- Cinta de advertencia tipo Public Safety -->
+    <div class="caution-tape">
+        <span class="tape-text">⚠️ PUBLIC SAFETY DEVIL HUNTER // DIVISION 4 ⚠️</span>
+        <span class="tape-text">⚠️ DATA SCIENCE UNIT // RESTRICTED ACCESS ⚠️</span>
+        <span class="tape-text">⚠️ CAUTION: HIGH PERFORMANCE DEVIL HUNTER ⚠️</span>
+    </div>
+
+    <div class="container">
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge">OPERATIVE CLASSIFIED // ITAM DATA SCIENCE</div>
+            <div class="title-box">
+                <h1 class="main-title">
+                    HOLA, SOY <span class="highlight">NAT</span>
+                </h1>
+            </div>
+
+            <!-- Cordón de motosierra interactivo -->
+            <div class="cord-area">
+                <button type="button" class="rip-cord-btn" id="ripCordBtn" aria-label="Tirar de la cuerda de motosierra">
+                    <span class="cord-ring"></span>
+                    <span>TIRAR DE LA CUERDA 🪚</span>
+                </button>
+            </div>
+        </header>
+
+        <div class="sawtooth-divider"></div>
+
+        <!-- Credencial de Cazador: Información y Habilidades extraídas del CV -->
+        <section class="hunter-card">
+            <div class="card-header">
+                <span class="card-stamp">DEVIL HUNTER ID</span>
+                <span class="serial-no">REG NO. 2026-ITAM-DS // FMM SCHOLAR</span>
+            </div>
+
+            <div class="card-body">
+                <div class="profile-summary">
+                    <div class="avatar-frame">
+                        <span class="avatar-icon">🪚</span>
+                        <div class="avatar-blood"></div>
+                    </div>
+                    <div>
+                        <div class="meta-field">Agente Asignada</div>
+                        <h2 class="hunter-name">NATALIA AGREDO LÓPEZ</h2>
+                        <div class="meta-status">● Estado: Activo en Seguridad Pública & Ciencia de Datos</div>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h3 class="skills-section-title">
+                        <span>🩸</span> HABILIDADES Y CONTRATOS (CV)
+                    </h3>
+                    
+                    <div class="skills-grid">
+                        <!-- Categoría: Programación -->
+                        <div class="skill-category-card">
+                            <div class="category-title">// PROGRAMACIÓN</div>
+                            <div class="skill-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Java</span>
+                            </div>
+                        </div>
+
+                        <!-- Categoría: Bases de Datos & CRM -->
+                        <div class="skill-category-card">
+                            <div class="category-title">// BASES DE DATOS & CRM</div>
+                            <div class="skill-tags">
+                                <span class="tag">Database Management</span>
+                                <span class="tag">Blackbaud eTapestry</span>
+                                <span class="tag">Data Extraction</span>
+                                <span class="tag">Data Structuring</span>
+                            </div>
+                        </div>
+
+                        <!-- Categoría: Calidad y Analítica -->
+                        <div class="skill-category-card">
+                            <div class="category-title">// ANÁLISIS & CALIDAD</div>
+                            <div class="skill-tags">
+                                <span class="tag">Data Validation</span>
+                                <span class="tag">Quality Control</span>
+                                <span class="tag">Reporting & Cleaning</span>
+                            </div>
+                        </div>
+
+                        <!-- Categoría: Idiomas -->
+                        <div class="skill-category-card">
+                            <div class="category-title">// IDIOMAS</div>
+                            <div class="skill-tags">
+                                <span class="tag">Español (Nativo)</span>
+                                <span class="tag">English (B2 - Upper Intermediate)</span>
+                            </div>
+                        </div>
+
+                        <!-- Categoría: Competencias clave -->
+                        <div class="skill-category-card" style="grid-column: 1 / -1;">
+                            <div class="category-title">// COMPETENCIAS PROFESIONALES</div>
+                            <div class="skill-tags">
+                                <span class="tag">Assertive Communication</span>
+                                <span class="tag">Inquiry Resolution</span>
+                                <span class="tag">Cross-Cultural Communication</span>
+                                <span class="tag">Attention to Detail</span>
+                                <span class="tag">Team Collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="sawtooth-divider"></div>
+
+        <!-- Enlaces y Currículum -->
+        <section class="links-section">
+            <div class="section-header">
+                <h2 class="section-title">ACCESO Y DOCUMENTACIÓN</h2>
+                <p class="section-sub">// ENLACES OFICIALES Y EXPEDIENTE</p>
+            </div>
+
+            <div class="action-grid">
+                <!-- GitHub -->
+                <a href="https://github.com/nat-aglo" target="_blank" rel="noopener noreferrer" class="action-card">
+                    <div class="card-top">
+                        <span class="card-label">REPOSITORIOS</span>
+                        <span class="card-icon">⚡</span>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>Explora mi código fuente, proyectos y experimentos de datos.</p>
+                    <div class="card-cta">VER PERFIL →</div>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com/in/natalia-a-06171441a" target="_blank" rel="noopener noreferrer" class="action-card">
+                    <div class="card-top">
+                        <span class="card-label">PROFESIONAL</span>
+                        <span class="card-icon">💼</span>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>Red profesional, trayectoria y experiencia universitaria.</p>
+                    <div class="card-cta">CONECTAR →</div>
+                </a>
+
+                <!-- CV PDF -->
+                <a href="cv.pdf" target="_blank" rel="noopener noreferrer" class="action-card primary">
+                    <div class="card-top">
+                        <span class="card-label" style="background: var(--csm-orange); color: #000; font-weight: bold;">EXPEDIENTE</span>
+                        <span class="card-icon">📄</span>
+                    </div>
+                    <h3>Currículum Vitae</h3>
+                    <p>Descarga mi CV completo en formato PDF con experiencia en ITAM.</p>
+                    <div class="card-cta">DESCARGAR CV (PDF) 🪚</div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-quote">"UN BUEN ANÁLISIS DE DATOS PUEDE VENCER A CUALQUIER DEMONIO"</div>
+            <p>© 2026 Natalia Agredo López // División 4 de Seguridad Pública</p>
+        </footer>
+
+    </div>
+
+    <!-- Script de efectos Chainsaw Man -->
+    <script src="script.js"></script>
 </body>
 </html>
